@@ -16,6 +16,12 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "biome:check": {
+      "dependsOn": ["^biome:check"]
+    },
+    "biome:fix": {
+      "dependsOn": ["^biome:fix"]
     }
   }
 }
